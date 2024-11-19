@@ -5,6 +5,7 @@ This project demonstrates how to retrain a YOLOv8 model using the KITTI dataset 
 - Split_Dataset.py: Splits KITTI dataset into training and testing subsets
 - Convert_Labels.py: Converts KITTI annotations into YOLO-compatible format.
 - YOLOv8_KITTI.py: Tests pre-trained YOLOv8 on KITTI dataset, Fine-tunes YOLOv8 model using KITTI training data, evaluates model performance and displays results
+- Re-trained_YOLO_Image.jpg contains a visualized example of inference performed by the retrained model on an image in the KITTI Dataset
 
 **Steps**
 - Install necessary libraries
