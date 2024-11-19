@@ -12,3 +12,5 @@ This project demonstrates how to retrain a YOLOv8 model using the KITTI dataset 
 - Run Split_Dataset.py
 - Run Convert_Labels.py
 - Run YOLOv8_KITTI.py
+- Results will be saved in the runs/predict directory for visualization
+- The fine-tuned model and weights will be saved in the runs/train/weights directory
