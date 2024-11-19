@@ -1,5 +1,5 @@
 # KITTI_YOLO
-This project demonstrates how to retrain a YOLOv8 model using the KITTI dataset for object detection tasks. It includes steps to prepare the dataset, convert annotations to YOLO format, split the data into training and testing sets, fine-tune the YOLO model, and evaluate its performance.
+This project demonstrates how to retrain a YOLOv8 model using the KITTI dataset for object detection tasks. The KITTI dataset is a widely-used benchmark for autonomous driving research, including rich annotations of objects such as cars, pedestrians, and cyclists. By fine-tuning YOLOv8 on this dataset, we aim to improve its performance on tasks specific to autonomous vehicle perception systems. This project includes steps to prepare the dataset, convert annotations to YOLO format, split the data into training and testing sets, fine-tune the YOLO model, and evaluate its performance.
 
 **Files**
 - Split_Dataset.py: Splits KITTI dataset into training and testing subsets
