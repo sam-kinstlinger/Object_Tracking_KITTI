@@ -1,0 +1,13 @@
+# Paths to datasets
+train: C:\Users\sammy\PycharmProjects\YOLO\data_object_image_2\train\images  # Path to training images
+val: C:\Users\sammy\PycharmProjects\YOLO\data_object_image_2\test\images   # Path to testing images (optional, used for evaluation)
+
+# Number of classes in the dataset
+nc: 3  # KITTI has three object detection classes: 'Car', 'Pedestrian', 'Cyclist'
+
+# Class names
+names:
+  0: Car
+  1: Pedestrian
+  2: Cyclist
+
