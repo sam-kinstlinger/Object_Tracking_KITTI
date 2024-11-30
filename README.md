@@ -5,6 +5,7 @@ This project demonstrates how to retrain a YOLOv8 model using the KITTI dataset 
 - Split_Dataset.py: Splits KITTI dataset into training and testing subsets
 - Convert_Labels.py: Converts KITTI annotations into YOLO-compatible format.
 - YOLOv8_KITTI.py: Tests pre-trained YOLOv8 on KITTI dataset, Fine-tunes YOLOv8 model using KITTI training data, evaluates model performance and displays results
+- DeepSORT_Vehicle_Tracking.py: Implements object tracking using the retrained YOLOv8 for object detection and DeepSORT for tracking across frames. The script processes input images from a directory, detects and tracks objects, and saves annotated images and a video of the tracked objects.
 - Re-trained_YOLO_Image.jpg contains a visualized example of inference performed by the retrained model on an image in the KITTI Dataset
 - data.yml: The dataset configuration definition file to specify paths, the number of classes, and class names
 
@@ -14,5 +15,6 @@ This project demonstrates how to retrain a YOLOv8 model using the KITTI dataset 
 - Run Split_Dataset.py
 - Run Convert_Labels.py
 - Run YOLOv8_KITTI.py
-- Results will be saved in the runs/predict directory for visualization
-- The fine-tuned model and weights will be saved in the runs/train/weights directory
+  - Results will be saved in the runs/predict directory for visualization
+  - The fine-tuned model and weights will be saved in the runs/train/weights directory
+- 
