@@ -1,2 +1,4 @@
-ultralytics==8.0.20
-matplotlib>=3.4.0
+ultralytics
+matplotlib
+opencv-python
+deep-sort-realtime
